@@ -33,8 +33,8 @@ app.put('/tasks', async (req, res) => {
 
     const todoIndex = todosArray.findIndex(todo => todo.id === id);
     if (todoIndex >= 0) {
-        todosArray[todoIndex].title = title;
-        todosArray[todoIndex].description = description;
+        // todosArray[todoIndex].title = title;
+        // todosArray[todoIndex].description = description;
         todosArray[todoIndex].status = status;
     }
 
